@@ -1,7 +1,7 @@
 # 🚀 **Live Demo**
 
 🔗 **مشاهده وب‌سایت اجرا شده:**
-👉 [`[https://web-project-mcxw.vercel.app/](https://yun.ir/lcxrqd)`]([https://web-project-mcxw.vercel.app/](https://yun.ir/lcxrqd))
+👉 [`yun.ir/lcxrqd`](yun.ir/lcxrqd)
 
 ---
 
