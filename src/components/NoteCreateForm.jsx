@@ -9,7 +9,7 @@ function NoteCreateForm({ onSetNote }) {
     e.preventDefault();
 
     if (!title.trim() || !description.trim()) {
-      setError('عنوان و توضیح نباید خالی باشند');
+      setError('باید چیزی بنویسی تا تاببد بشه');
       return;
     }
 
@@ -43,7 +43,7 @@ function NoteCreateForm({ onSetNote }) {
 
   return (
     <section className="note-create">
-      <h2 className="note-create_title">Add New Note</h2>
+      <h2 className="note-create_title">New Note</h2>
       <form className="note-create_form" onSubmit={handleSubmitForm}>
         <input
           value={title}
