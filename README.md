@@ -1,130 +1,137 @@
-🚀 Live Demo
+# 🚀 **Live Demo**
 
-🔗 مشاهده وب‌سایت اجرا شده
-
-`https://web-project-mcxw.vercel.app/`
-
----
-
-🌐 Full-Stack Web Project — React + Vite & Laravel
-
-A blazing-fast full-stack web application built with React + Vite on the frontend and Laravel (PHP) on the backend.  
-Designed for developers who want to build scalable, modular, and production-ready web applications with modern tools and clean architecture.
+🔗 **مشاهده وب‌سایت اجرا شده:**
+👉 [`[https://web-project-mcxw.vercel.app/](https://yun.ir/lcxrqd)`]([https://web-project-mcxw.vercel.app/](https://yun.ir/lcxrqd))
 
 ---
 
-📦 Project Structure
+# 🌐 **Full-Stack Web Project — React + Vite ⚡ Laravel**
 
-`
+یک پروژه فول‌استک مدرن با **React + Vite** در فرانت‌اند و **Laravel (PHP)** در بک‌اند.
+طراحی‌شده برای توسعه‌دهندگانی که به دنبال ساخت اپلیکیشن‌هایی سریع، تمیز، مقیاس‌پذیر و آماده برای محیط واقعی هستند.
+
+---
+
+## 📁 **ساختار پروژه**
+
+```
 Web-project/
-├── frontend/       → React + Vite app (UI & client logic)
-├── backend/        → Laravel API (server-side logic)
+├── frontend/       → React + Vite (UI & Client Logic)
+├── backend/        → Laravel (API & Server Logic)
 ├── .gitignore
 ├── README.md
 └── ...
-`
+```
 
 ---
 
-🎯 Purpose
+## 🎯 **اهداف پروژه**
 
-This project was created to:
-
-- Build a responsive and modular frontend using React + Vite  
-- Practice component-based architecture and state management  
-- Develop RESTful APIs and backend logic with Laravel  
-- Understand full-stack integration and deployment workflows  
-- Learn Git-based collaboration and version control in real-world projects  
+* ساخت رابط کاربری واکنش‌گرا و ماژولار با React + Vite
+* تمرین معماری مبتنی بر کامپوننت و مدیریت حالت (State)
+* توسعه API و منطق بک‌اند با Laravel
+* یادگیری اتصال فرانت‌اند و بک‌اند به‌صورت واقعی
+* درک گردش‌کار استقرار (Deployment) و کنترل نسخه با Git
 
 ---
 
-🚀 Getting Started (Git + VS Code)
+## ⚙️ **شروع کار (Git + VS Code)**
 
-1. Clone the repository
+### 1️⃣ کلون کردن ریپازیتوری
 
-`bash
-git clone https://github.com/mahdiklidari190/Web-project.git
+```bash
+git clone https://github.com/hhsahufsafh/Web-project.git
 cd Web-project
-`
+```
 
-2. Open the project in Visual Studio Code
+### 2️⃣ باز کردن پروژه در VS Code
 
-`bash
+```bash
 code .
-`
+```
 
-3. Install dependencies
+### 3️⃣ نصب وابستگی‌ها
 
-Frontend (React + Vite)
+**Frontend (React + Vite):**
 
-`bash
+```bash
 cd frontend
 npm install
 npm run dev
-`
+```
 
-Backend (Laravel)
+**Backend (Laravel):**
 
-`bash
+```bash
 cd backend
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
-`
+```
 
 ---
 
-⚛️ Frontend Highlights
+## ⚛️ **ویژگی‌های فرانت‌اند**
 
-- Built with React and powered by Vite for ultra-fast development
-- Supports Hot Module Replacement (HMR) for instant updates
-- Configured with ESLint and Prettier for clean code
-- Optional support for TypeScript and typescript-eslint
-- Easily extendable with libraries like React Router, Axios, and Tailwind CSS
-
----
-
-🐘 Backend Highlights
-
-- Built with Laravel, a powerful PHP framework
-- RESTful API structure with controllers, models, and migrations
-- Authentication-ready (Laravel Sanctum or Passport)
-- Database support via Eloquent ORM
-- Easy integration with frontend via JSON APIs
+✨ ساخته‌شده با React و Vite برای توسعه سریع
+🔄 پشتیبانی از HMR (به‌روزرسانی لحظه‌ای)
+🧹 تنظیم‌شده با ESLint و Prettier برای کد تمیز
+💬 آماده برای TypeScript و react-router
+🎨 قابل گسترش با TailwindCSS و Axios
 
 ---
 
-🔗 API Integration
+## 🐘 **ویژگی‌های بک‌اند**
 
-Make sure your frontend connects to the backend via:
+🧱 فریم‌ورک قدرتمند Laravel
+🔗 ساختار RESTful API با کنترلرها و مدل‌ها
+🔒 آماده برای احراز هویت (Sanctum یا Passport)
+🗃️ ORM پیشرفته Eloquent
+⚡ ارتباط آسان با فرانت‌اند از طریق JSON
 
-`
+---
+
+## 🔗 **اتصال API**
+
+فرانت‌اند باید به آدرس زیر متصل شود:
+
+```
 http://localhost:8000/api
-`
+```
 
-Use Axios or Fetch to send requests from React components to Laravel routes.
-
----
-
-💡 Pro Tips
-
-- Run frontend and backend in separate terminals for smooth development
-- Use tools like Postman or Insomnia to test your APIs
-- Add JWT authentication for secure user sessions
-- Deploy frontend to Vercel or Netlify, and backend to Laravel Forge, Heroku, or Railway
-- Use .env files to manage environment variables securely
+برای ارسال درخواست‌ها از Axios یا Fetch استفاده کن.
 
 ---
 
-📜 License
+## 💡 **نکات حرفه‌ای**
 
-This project is open-source and available under the MIT License.
+* فرانت‌اند و بک‌اند را در دو ترمینال جدا اجرا کن
+* از Postman برای تست API استفاده کن
+* JWT اضافه کن برای امنیت بیشتر
+* فرانت‌اند را در Vercel یا Netlify و بک‌اند را در Railway یا Heroku مستقر کن
+* تنظیمات محیطی را با `.env` مدیریت کن
 
 ---
 
-🧠 Author
+## 🧠 **سازنده پروژه**
 
-Developed by Mahdi Klidari  
-GitHub: @mahdiklidari190
+👨‍💻 **Developed by [Hadi Hatami](https://github.com/hhsahufsafh)**
+📬 GitHub: [@hhsahufsafh](https://github.com/hhsahufsafh)
+💎 Passionate about Modern Web Development & UI Design
+
+---
+
+## 📜 **License**
+
+این پروژه **متن‌باز (Open Source)** بوده و تحت مجوز **MIT License** منتشر شده است.
+
+---
+
+🎨 طراحی‌شده با عشق ❤️ توسط **هادی حاتمی**
+
+---
+
+آیا دوست داری من برات این README رو به‌صورت **فایل Markdown آماده (.md)** بسازم تا مستقیم داخل GitHub بذاری؟
+(می‌تونم گرافیکش رو با بنر یا آیکون‌های مخصوص توسعه‌دهنده هم زیباتر کنم.)
